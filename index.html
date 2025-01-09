@@ -4,16 +4,173 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wev Developer portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/portfolio.css">
 </head>
-<body>
-    <header>
+<body class="open-sans-normal">
+    <header class="header secondary-bg">
+        <nav>
+           <h3 class="nav-title">Ma<span class="text-primary">r</span>y</h3>
+           <ul>
+             <li><a class="dark" href="">portfolio</a></li>
+             <li><a class="dark" href="">Blog</a></li>
+             <li><a href=""><button class="btn-primary">Hire Me</button></a></li>
+           </ul>
+        </nav>
+        <div class="banner">
+            <div class="banner-content">
+                <h4 class="banner-greetings dark">Hi, I am </h4>
+                <h1 class="banner-title">Mary Hardy</h1>
+                <p class="banner-discription">shot what able cold new see hold.Friend  as an betrayed formerly he.Morning because as to society behaved moments</p>
+                <button class="btn-primary">Download CV</button>
+                <button class="btn-primary">contact</button>
 
+            </div>
+            <img class="banner-profile-pic" src ="images/hardy.png" alt="">
+        
+        </div>
     </header>
     <main>
+        <section class="about secondary-bg">
+            <h3 class="sectiion-title">About Me</h3>
+            <p class="section-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id labore at maiores debitis doloribus neque, laborum exercitationem iusto asperiores ad animi aliquid pariatur quia delectus reprehenderit nihil quaerat laboriosam iste.</p>
+
+            <div class="about-items">
+                <!-- .about-item*4>p.item-title+p.item-description -->
+            
+                <div class="about-item">
+                    <p class="item-title">name</p>
+                    <p class="item-description">Mary Hardy</p>
+                </div>
+                <div class="about-item">
+                    <p class="item-title">Email</p>
+                    <p class="item-description">abc@def.com</p>
+                </div>
+                <div class="about-item">
+                    <p class="item-title">Date of Birth</p>
+                    <p class="item-description">Dec 16, 1971</p>
+                </div>
+                <div class="about-item">
+                    <p class="item-title">Fron</p>
+                    <p class="item-description">Dhaka, BD</p>
+                </div>
+            </div>
+        
+
+        </section>
+
+        <!-- what is do section part -->
+         <section class="Skills">
+            <h2 class="sectiion-title text-center">What I do</h2>
+            <p class="section-description text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi voluptatum modi provident nam numquam animi eos cum reprehenderit laboriosam? Dolorem tempora tenetur reprehenderit obcaecati facilis cupiditate aperiam voluptatum non voluptates.</p>
+
+            <div class="skills-container">
+                   <!-- .skills*4>img + h4.skill-title+ p.skill-description -->
+                 <div class="skills ">
+                    <img src="images/icons/js.png" alt="">
+                    <h4 class="skill-title">vanilla javaScript</h4>
+                    <p class="skill-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quisquam voluptatibus explicabo inventore error, quam quis exercitationem, autem officiis magnam at rem nobis sed? Incidunt corporis cum reprehenderit praesentium totam!</p>
+                </div>
+                <div class="skills">
+                    <img src="images/icons/react.png" alt="">
+                    <h4 class="skill-title">React</h4>
+                    <p class="skill-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum id quia eveniet voluptates exercitationem voluptatum blanditiis unde corporis! Quo praesentium rem doloribus, doloremque provident corporis odio explicabo quis quasi maiores!</p>
+                </div>
+                <div class="skills">
+                    <img src="images/icons/nodejs.png" alt="">
+                    <h4 class="skill-title">Node.js</h4>
+                    <p class="skill-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, provident totam eligendi quaerat necessitatibus fugit magni a eum magnam ex aliquid laudantium, numquam voluptas vel ea officiis atque repudiandae. Dolores!</p>
+                </div>
+                <div class="skills">
+                    <img src="images/icons/mongo.png" alt="">
+                    <h4 class="skill-title">MongoDB</h4>
+                    <p class="skill-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, eum pariatur ad fugit excepturi magni, esse possimus perferendis tempore laborum, illum architecto. Exercitationem incidunt est quos doloribus voluptate, magni rerum?</p>
+                </div>
+            </div>
+         </section>
+        
+        <!-- A Summary of my Resume -->
+         <section class="Resume">
+            <h3 class="section-title texto-center">A summary of My Resume</h3>
+            <div class="resume-container">
+                <!-- .Resume-column*2>h3.resume-column-title+.experience*3>h4.exprience-title+h5.exprience-sub-tjitle+.exprience-description -->
+
+                <div class="Resume-column">
+                    <h3 class="resume-column-title">My Education </h3>
+
+                    <div class="experience">
+                        <h4 class="exprience-title">Master in Computer Engineering</h4>
+                        <h5 class="exprience-sub-tjitle">Harvard University / 2015 2017</h5>
+                        <div class="exprience-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean
+                        commodo ligula eget dolor.</div>
+                    </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="exprience-title">Master in Computer Engineering</h4>
+                        <h5 class="exprience-sub-tjitle">Harvard University / 2015 2017</h5>
+                        <div class="exprience-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean
+                        commodo ligula eget dolor.</div>
+                    </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="exprience-title">Master in Computer Engineering</h4>
+                         <h5 class="exprience-sub-tjitle">Harvard University / 2015 2017</h5>
+                         <div class="exprience-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean
+                         commodo ligula eget dolor.</div>
+                    </div>
+                </div>
+                <div class="Resume-column">
+                    <h3 class="resume-column-title">My exprience</h3>
+
+                    <div class="experience">
+                        <h4 class="exprience-title">Master in Computer Engineering</h4>
+                        <h5 class="exprience-sub-tjitle">Harvard University / 2015 2017</h5>
+                        <div class="exprience-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean
+                        commodo ligula eget dolor.</div>
+                    </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="exprience-title">Master in Computer Engineering</h4>
+                        <h5 class="exprience-sub-tjitle">Harvard University / 2015 2017</h5>
+                        <div class="exprience-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean
+                        commodo ligula eget dolor.</div>
+                    </div>
+                        <hr>
+                    <div class="experience">
+                         <h4 class="exprience-title">Master in Computer Engineering</h4>
+                         <h5 class="exprience-sub-tjitle">Harvard University / 2015 2017</h5>
+                         <div class="exprience-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean
+                          commodo ligula eget dolor.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center resume-download-cv">
+                <button class="btn-primary">Download CV</button>
+            </div>
+         </section>
+         
 
     </main>
-    <footer>
-        
+    <footer class="secondary-bg">
+        <div class="footer-coloumn">
+            <h3 class="section-title">Lets code</h3>
+            <p class="exprience-description">Lorem ipsum dolor sit amet, consectetur adipisicing eliquasi labore aliquam vel! Laudantium, maxime laboriosam.</p>
+            <a href=""><img src="images/icons/facebook.png" alt=""></a>
+            <a href=""><img src="images/icons/insta.png" alt=""></a>
+            <a href=""><img src="images/icons/twitter.png" alt=""></a>
+        </div>
+        <div class="footer-coloumn">
+            <form action="">
+                <h3 class="section-title">Lets Massage me</h3>
+                <input type="text" name="" id=""  placeholder="your name">
+               <input type="Email" name="" id="" placeholder="your email">
+               <textarea name="Massage" id="" cols="60" rows="8" placeholder="massage"></textarea>
+               <input class="btn-primary" type="submit" value="submit">
+            </form>
+        </div>
+
     </footer>
     
 </body>
